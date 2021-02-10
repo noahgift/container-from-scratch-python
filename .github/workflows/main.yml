@@ -16,6 +16,9 @@ jobs:
     - name: Install dependencies
       run: |
         make install
+    - name: Lint Dockerfile
+      run: |
+        make lint
 
     
     
