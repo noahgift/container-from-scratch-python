@@ -1,7 +1,7 @@
 # container-from-scratch-python
 This is building a container from scratch
 
-## Build the Container Yourself
+## Build the Container Yourself and Push to Docker Hub
 
 ### Build image
 *(If you want to develop yourself)* 
@@ -13,6 +13,12 @@ docker image ls
 ### Run my newly built container
 
 docker run -it hello-duke-cli-210 python app.py --name "Big John"
+
+### Push to Docker Hub
+
+*Note:  You will need to change for your Docker Hub Repo*
+docker push noahgift/duke102:tagname
+
 
 ## Run it yourself
 
