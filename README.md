@@ -19,7 +19,6 @@ docker run -it hello-duke-cli-210 python app.py --name "Big John"
 *Note:  You will need to change for your Docker Hub Repo*
 docker push noahgift/duke102:tagname
 
-
 ## Run it yourself
 
 ```bash
@@ -36,3 +35,11 @@ docker run -it noahgift/cloudapp python app.py --name "Big John"
 #the output
 Hello Big John!
 ```
+
+### More things Do
+
+* Lint the code with Github Actions (see the Makefile)
+* Automatically build the container after lint, and push to DockerHub or some other Container Registery
+
+
+
