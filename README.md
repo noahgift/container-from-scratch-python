@@ -36,6 +36,11 @@ docker run -it noahgift/cloudapp python app.py --name "Big John"
 Hello Big John!
 ```
 
+## Push to Amazon ECR
+
+1.  Create ECR repository
+
+
 ### More things Do
 
 * Lint the code with Github Actions (see the Makefile)
